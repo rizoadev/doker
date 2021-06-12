@@ -1,0 +1,12 @@
+version: '3.3'
+services: 
+    app1: 
+        image: xubuntu
+        ports: 
+            - 8071:80
+    app2: 
+        image: xalpine
+        ports: 
+            - 8072:80
+        volumes:
+            - ./html2:/home/html
