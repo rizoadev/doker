@@ -5,4 +5,4 @@ services:
         ports: 
             - 8072:80
         volumes:
-            - ./html2:/home/html
+            - ./html/:/home/html
